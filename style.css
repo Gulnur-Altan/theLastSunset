@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  font-family: Arial, sans-serif;
+}
+
+/* MENU */
+#menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+#menu button {
+  padding: 12px 24px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* UI */
+#ui {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  z-index: 10;
+  font-size: 18px;
+}
+
+/* TERMINAL */
+#terminal {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 320px;
+  height: 180px;
+  background: black;
+  color: #00ff88;
+  font-family: monospace;
+  padding: 10px;
+  overflow-y: auto;
+  border: 1px solid #00ff88;
+  z-index: 10;
+}
+
+/* GAME OVER */
+#gameover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+#gameover button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+/* CANVAS */
+canvas {
+  display: block;
+}
+
+#vignette {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    transparent 60%,
+    rgba(0,0,0,0.7) 100%
+  );
+  z-index: 50;
+}
