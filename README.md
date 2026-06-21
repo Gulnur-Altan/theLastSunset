@@ -5,7 +5,7 @@ A small narrative browser game inspired by the June Solstice.
 
 In a world where the sun is slowly fading away, you play as an AI archive unit collecting fragments of human knowledge before the final sunset.
 
-![The Last Sunset Banner](assets/banner.png)
+![The Last Sunset Banner](/assets/banner.jpeg)
 
 ## 🎮 Features
 
